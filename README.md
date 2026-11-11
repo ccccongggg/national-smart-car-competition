@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a7ee9fa0f6a0a024ef5a4c503b5f22a627e7f097a08b0eea472c990a4607d522
-size 1008
+# 全国大学生智能汽车竞赛 · 硬件与机械归档
+
+> 第二十一届全国大学生智能汽车竞赛 ·「飞檐走壁组」参赛资料归档。
+> 本仓只归档**硬件与机械部分**，不含车辆控制固件、参数表与调试日志。
+
+## 📂 归档内容
+
+| 目录 | 内容 |
+| --- | --- |
+| `hardware/pcb/` | 主控板嘉立创 EDA 专业版工程 2 版：`主控板-CM-2026-08-09.epro2`、`主控板-V4.0-2026-08-09.epro2` |
+| `models/cad/` | 基于龙邱 Q 车模侧板设计的车模底板 SolidWorks 模型 `.SLDPRT` |
+| `media/process/` | [PCB 设计与调试现场照片](media/process/PCB设计与调试现场.png) |
+| `media/event/` | [第二十一届比赛现场照片](media/event/第二十一届全国大学生智能汽车竞赛现场.jpg) |
+
+## 🛠 打开方式
+
+- `.epro2` → 嘉立创 EDA 专业版；两个 PCB 工程代表不同设计迭代，打开后先检查封装库、规则与层叠设置。
+- `.SLDPRT` → SolidWorks；装配体依赖同目录零件，需整仓下载后再打开。
+
+## ⚠️ LFS 说明
+
+CAD、图片等大文件由 **Git LFS** 托管。网页端点击文件可在线查看；克隆到本地需先安装 `git-lfs` 再 `git lfs pull`，否则看到的是约 130 字节的指针文件。
